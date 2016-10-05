@@ -1,0 +1,47 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:arial, sans-serif;
+}
+main{
+	margin: 10px 0px;
+}
+header{
+	text-align: center;
+}
+h1{
+	font-size: 1.7em;
+}
+h2{
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+li{
+	margin-left: 40px;
+}
+.block{
+	margin-top: 15px;
+}
+.todo{
+	color: red;
+}
+
+@media screen and (min-width: 501px){
+	.date{
+		float:right;
+		}
+	.dateleft{
+		float:left;	
+	}
+	.clear{
+		clear:both;
+	}
+	body{
+		width:100%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 50px){
+	.date{}
+	body{width:250px;}
+}
